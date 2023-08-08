@@ -2,6 +2,7 @@ import { mapTo } from 'rxjs/operators';
 import { interval, merge } from 'rxjs';
 
 // src: https://www.learnrxjs.io/learn-rxjs/operators/combination/merge
+// Example 1: merging multiple observables, static method
 
 //emit every 2.5 seconds
 const delemiter = interval(6000);
